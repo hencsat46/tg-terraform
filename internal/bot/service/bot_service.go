@@ -114,7 +114,6 @@ func (s *service) HandleVPCSubnet(chatId int64) (*models.ResponseBodyButtonsDTO,
 
 func (s *service) AddProvider(text string) {
 	s.form.Type = text
-	log.Println("жопа")
 }
 
 func (s *service) AddProviderRegion(text string) {
